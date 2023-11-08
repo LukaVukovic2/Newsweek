@@ -1,0 +1,10 @@
+<?php
+header('Content-Type: text/html; charset=utf-8');
+$servername = "localhost";
+$username = "root";
+$password = "";
+$basename = "newsweek";
+// Create connection
+$dbc = mysqli_connect($servername, $username, $password, $basename);
+mysqli_set_charset($dbc, "utf8");
+?>

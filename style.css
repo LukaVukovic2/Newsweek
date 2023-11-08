@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(244, 245, 246);
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: white;
+}
+header{
+    background-color: rgb(247,34,16);
+}
+h1{
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-size: 70px;
+}
+#datum{
+    padding: 0 0 10px 15px;
+    color: white;
+    margin: 0;
+}
+nav{
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    font-weight: bold;
+    font-size: 20px;
+}
+ul{
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+li{
+    border-right: 1px solid lightgray;
+    width: 20%;
+    text-align: center;
+}
+li:nth-child(5){
+    border-right: none;
+}
+a{
+    text-decoration: none;
+}
+section a{
+    color: black;
+}
+ul a{
+    color: black;
+    display: block;
+    padding: 20px 0;
+}
+ul a:hover{
+    background-color: rgb(209, 209, 209);
+}
+li:visited a{
+    background-color: pink;
+}
+main, footer{
+    padding: 20px 30px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+h2:first-letter{
+    text-transform: uppercase;
+}
+article p{
+    font-family: 'Roboto';
+    word-spacing: 3px;
+    line-height: 150%;
+}
+article h3{
+    font-family: 'Roboto', sans-serif;
+}
+.sazetak{
+    width: 30%;
+}
+.sazetak a{
+    padding: 0;
+}
+
+.slika{
+    width: 100%;
+}
+h2{
+    color: rgb(247,34,16);
+    font-weight: bold;
+}
+h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+footer{
+    font-size: 10px;
+}
+.clanak p::first-letter{
+    font-size: 200%;
+    font-family: serif;
+}
+.clanak h2, .clanak h3{
+    text-transform: uppercase;
+}
+.clanak h3{
+    font-size: 30px;
+}
+.kategorija{
+    text-transform: uppercase;
+    padding: 5px 10px;
+    background-color: rgb(247,34,16);
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+    border: none;
+}
+
+.kategorija_naslov::first-letter{
+    text-transform: uppercase;
+}
+.adm_slika{
+    width: 200px;
+}
+.kategorija a{
+    color: white;
+}
+.gumb{
+    color: white;
+    background-color: rgb(247,34,16);
+    border: 0;
+    padding: 5px 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    border-radius: 8px;
+}
+.btn{
+    color: blue;
+}
+li.active a {
+    color: #333;
+    font-weight: bold;
+}
